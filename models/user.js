@@ -4,12 +4,12 @@ const {
 } = require('sequelize');
 
 module.exports = (sequelize) => {
-  class Users extends Model {
+  class User extends Model {
     static associate(models) {
       // define association here
     }
   }
-  Users.init({
+  User.init({
       id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,
@@ -40,5 +40,5 @@ module.exports = (sequelize) => {
     updatedAt: false,
     modelName: 'Users',
   });
-  return Users;
+  return User;
 };

@@ -18,8 +18,6 @@
     "setup": "npx sequelize db:create && npx sequelize db:migrate",
     "dev": "NODE_ENV=development nodemon .",
     "start": "NODE_ENV=production node .",
-    "db:migrate": "sequelize db:migrate",
-    "db:down": "sequelize db:migrate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
