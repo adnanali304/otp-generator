@@ -1,7 +1,7 @@
 # ProductBox: OTP Generator Task
 
 ## Setup
-- Enter Database (Mysql) creditional in `/config/configs.json`
+- Enter Database (Mysql) credentials in `config/configs.json`
 - Run ```npm install``` to install node dependencies.
 - Run ```npm run setup``` to create database & tables
 ## API Reference
